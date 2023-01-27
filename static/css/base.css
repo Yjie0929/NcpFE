@@ -1,0 +1,107 @@
+body {
+    margin: 0;
+    background-color: #100c2aff;
+}
+
+#title {
+    position: absolute;
+    width: 40%;
+    height: 10%;
+    top: 0;
+    left: 30%;
+    color: white;
+    font-size: 30px;
+    display: flex; /*弹性布局启用*/
+    align-content: center;
+    align-items: center;
+    justify-content: center; /*竖直居中*/
+}
+
+#time {
+    position: absolute;
+    width: 30%;
+    height: 10%;
+    top: 0;
+    right: 0;
+}
+
+#ncp_data {
+    position: absolute;
+    width: 40%;
+    height: 30%;
+    top: 10%;
+    left: 30%;
+}
+
+#china_map {
+    position: absolute;
+    width: 40%;
+    height: 60%;
+    top: 40%;
+    left: 30%;
+}
+
+#total_trend {
+    position: absolute;
+    width: 30%;
+    height: 45%;
+    top: 10%;
+    left: 0;
+}
+
+#new {
+    position: absolute;
+    width: 30%;
+    height: 45%;
+    top: 55%;
+    left: 0;
+}
+
+#top_city {
+    position: absolute;
+    width: 30%;
+    height: 45%;
+    top: 10%;
+    right: 0;
+}
+
+#sar {
+    position: absolute;
+    width: 30%;
+    height: 45%;
+    top: 55%;
+    right: 0;
+}
+
+#time {  /*修饰右上角的时间*/
+    position: absolute;
+    height: 10%;
+    right: 0;
+    top: 5%;
+    color: #FFFFFF;
+    font-size: 20px;
+}
+
+.num {
+    width: 25%;
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: gold;
+    font-size: 20px;
+}
+
+.txt {
+    width: 25%;
+    float: left;
+    /*font-family: "幼圆";*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.txt h2 {
+    margin: 0;
+}
